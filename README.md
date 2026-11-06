@@ -1,4 +1,4 @@
-[README.md](https://github.com/user-attachments/files/34460648/README.md)
+[README.md](https://github.com/user-attachments/files/34460891/README.md)
 # KAT Activation Restores Chromatin Dynamics and Resolves Tau Pathology in Tauopathy Mice — Analysis Scripts
 
 Analysis scripts supporting the RNA-seq and CUT&RUN data reported in this
@@ -14,7 +14,7 @@ hTau/Mapt-KO (hTau) mice.
 │                  gene-set enrichment, a comparison against four alternative
 │                  model specifications, and the scripts for each panel of
 │                  Figure 3 and its supplementary figures.
-└── Cut_and_Run/   H3K4ac CUT&RUN downstream analysis: spike-in-normalized
+└── CUTandRUN/     H3K4ac CUT&RUN downstream analysis: spike-in-normalized
                    signal, consensus peak handling, differential analysis over
                    the peak union, genomic feature distribution, GO
                    enrichment, and genome browser tracks.
@@ -33,7 +33,7 @@ written.
 In `RNAseq/`, `01` builds the model and writes the results table every later
 script reads; the inputs are expected in the working directory.
 
-In `Cut_and_Run/`, the input locations are given by environment variables
+In `CUTandRUN/`, the input locations are given by environment variables
 (`CUTRUN_PEAKS`, `CUTRUN_BIGWIG`, `CUTRUN_BAM`, `GTF` and a few others), each
 with a sensible default; that folder's README lists them. Scripts `01`–`04`
 build the files every panel reads, and the later scripts produce one panel
