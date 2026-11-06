@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/34460891/README.md)
 # KAT Activation Restores Chromatin Dynamics and Resolves Tau Pathology in Tauopathy Mice — Analysis Scripts
 
 Analysis scripts supporting the RNA-seq and CUT&RUN data reported in this
