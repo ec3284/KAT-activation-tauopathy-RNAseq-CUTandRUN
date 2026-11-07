@@ -38,10 +38,6 @@ with a sensible default; that folder's README lists them. Scripts `01`–`04`
 build the files every panel reads, and the later scripts produce one panel
 each.
 
-Two panels of each figure set are drawn in GraphPad Prism from exported CSV
-files rather than by the scripts. That is noted where it applies and is
-expected, not a missing step.
-
 ## Raw and processed data
 
 Raw sequencing files and processed data (count matrices, bigWig tracks, peak
